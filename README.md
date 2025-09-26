@@ -187,9 +187,12 @@ Installation & Usage
 # Install dependencies
 pip install pandas numpy seaborn matplotlib plotly scikit-learn xgboost lightgbm tensorflow tensorflow-addons optuna
 
+
 # Clone repo
 git clone https://github.com/yourusername/Cervical_Cancer_Prediction_with_ML.git
+
 cd Cervical_Cancer_Prediction_with_ML
+
 
 # Launch Jupyter Notebook
 jupyter notebook
