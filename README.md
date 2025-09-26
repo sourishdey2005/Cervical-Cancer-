@@ -200,11 +200,16 @@ jupyter notebook
 
 
 
+
+
+
 11. Conclusion
 
 This project demonstrates the application of machine learning and deep learning to predict cervical cancer risk using patient demographic, behavioral, and clinical data. By combining ensemble models (XGBoost) with deep architectures (Hybrid DNN+CNN), we achieved high precision and recall, making the framework suitable for potential clinical decision support systems.
 
 Early detection remains vital: these models can assist healthcare providers, optimize screening resources, and save lives.
+
+
 
 12. References
 
