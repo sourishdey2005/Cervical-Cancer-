@@ -134,6 +134,9 @@ Callbacks: EarlyStopping, ReduceLROnPlateau, ModelCheckpoint.
 Evaluation Metrics
 
 <img width="318" height="118" alt="image" src="https://github.com/user-attachments/assets/765115df-f33c-4fc5-a937-857b59d18c24" />
+
+
+
 ROC-AUC: Area under true positive rate vs false positive rate curve.
 
 PR-AUC: Area under precision-recall curve (especially relevant for imbalanced classes).
