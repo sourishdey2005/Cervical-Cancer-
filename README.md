@@ -1,4 +1,7 @@
 Cervical Cancer Prediction using Machine Learning & Deep Learning
+
+<img width="1582" height="620" alt="image" src="https://github.com/user-attachments/assets/f160029b-c99a-44d4-99df-c8af1bca6bf4" />
+
 1. Project Overview
 
 Cervical cancer remains a leading cause of cancer-related mortality among women globally. According to WHO (2020), cervical cancer ranks fourth among all cancers affecting women, with 604,000 new cases and 342,000 deaths annually. Persistent infection with high-risk Human Papillomavirus (HPV) strains is the primary cause of cervical carcinogenesis. Early detection is pivotal: it dramatically increases survival rates and reduces treatment complexity.
@@ -173,3 +176,38 @@ Transfer learning: Pretrained CNNs for histopathological images.
 Early-stage prediction: Predict progression from CIN1 → CIN3.
 
 Explainable AI: Incorporate domain-specific interpretations for clinical adoption.
+
+
+
+Installation & Usage
+
+# Install dependencies
+pip install pandas numpy seaborn matplotlib plotly scikit-learn xgboost lightgbm tensorflow tensorflow-addons optuna
+
+# Clone repo
+git clone https://github.com/yourusername/Cervical_Cancer_Prediction_with_ML.git
+cd Cervical_Cancer_Prediction_with_ML
+
+# Launch Jupyter Notebook
+jupyter notebook
+
+
+
+
+11. Conclusion
+
+This project demonstrates the application of machine learning and deep learning to predict cervical cancer risk using patient demographic, behavioral, and clinical data. By combining ensemble models (XGBoost) with deep architectures (Hybrid DNN+CNN), we achieved high precision and recall, making the framework suitable for potential clinical decision support systems.
+
+Early detection remains vital: these models can assist healthcare providers, optimize screening resources, and save lives.
+
+12. References
+
+WHO: Cervical Cancer Statistics, 2020.
+
+Kaggle: Cervical Cancer Risk Classification Dataset.
+
+Chen, T., & Guestrin, C. (2016). "XGBoost: A Scalable Tree Boosting System."
+
+Optuna: Hyperparameter Optimization Framework.
+
+TensorFlow/Keras Documentation.
